@@ -10,3 +10,10 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# cached files
+cache/*
+!cache/.dh
+
+# Mac
+.DS_Store
