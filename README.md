@@ -8,7 +8,7 @@ Service caching generated speeches with ident parameters to local folder.
 ## Usage
 
 ```bash
-go get github.com/4rakcheev/get-proxy-tts
+go get github.com/4rakcheev/tts-over-http-get
 go run get-proxy-tts.go
 ```
 
