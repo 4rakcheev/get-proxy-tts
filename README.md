@@ -1,5 +1,5 @@
 # get-proxy-tts
-Service provides HTTP GET interface for access to text to speech functionality like AWS Polly, Google TTS or others services.
+Service provides HTTP GET interface for access to text to speech functionality like AWS Polly, Google TTS or other services.
 
 ## Overview
 This can be useful for easy integration TTS to your legacy systems that integrating with audio files by URL.
@@ -9,7 +9,7 @@ Service caching generated speeches with ident parameters to local folder.
 
 ```bash
 go get github.com/4rakcheev/tts-over-http-get
-go run get-proxy-tts.go
+go run tts-over-http-get.go
 ```
 
 ## Text-to-speech generating
